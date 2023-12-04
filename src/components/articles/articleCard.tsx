@@ -1,5 +1,5 @@
-import card from "./card.module.scss";
+import card from './card.module.scss';
 
 export default function ArticleCard() {
-  return <div className="article-card">ArticleCard</div>;
+	return <div className="article-card">ArticleCard</div>;
 }
