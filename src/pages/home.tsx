@@ -5,8 +5,6 @@ import home from "./home.module.scss";
 import Navbar from "../components/common/navbar";
 import Breadcrumbs from "../components/common/breadCrumb";
 
-import Login from '../components/user/login/login'
-
 export default function Home() {
   return (
     <div className={home.container}>

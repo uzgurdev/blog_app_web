@@ -4,10 +4,9 @@ import {
   Routes as Switch,
 } from "react-router-dom";
 
-import Home from "./pages/home";
-import Main from "./pages/main";
+import {Home, Main, About} from "./pages";
 import { ArticlePost } from "./components/articles";
-import About from "./pages/about";
+import { Login } from "./components/user";
 
 const Routes = () => {
   return (
@@ -19,6 +18,9 @@ const Routes = () => {
 
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Main />} />
+
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Main />} />
 
         <Route path="*" element={<Main />} />
       </Route>
