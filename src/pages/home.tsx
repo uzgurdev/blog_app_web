@@ -6,6 +6,7 @@ import Navbar from "../components/common/navbar";
 import Breadcrumbs from "../components/common/breadCrumb";
 
 import Login from '../components/user/login/login'
+import Register from '../components/user/register/register'
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
         {/* Home */}
         {/* <Outlet /> */}
         {/* <UserInfo /> */}
-        <Login />
+        {/* <Login /> */}
+        <Register />
       </main>
     </div>
   );
