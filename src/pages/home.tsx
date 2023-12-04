@@ -5,6 +5,8 @@ import { Banner, UserInfo } from "../components";
 import Navbar from "../components/common/navbar";
 import Breadcrumbs from "../components/common/breadCrumb";
 
+import Login from '../components/user/login/login'
+
 export default function Home() {
   return (
     <div className={home.container}>
@@ -13,10 +15,11 @@ export default function Home() {
         <Breadcrumbs />
       </div>
       <main>
-        <Banner />
+        {/* <Banner /> */}
         {/* Home */}
-        <Outlet />
-        <UserInfo />
+        {/* <Outlet /> */}
+        {/* <UserInfo /> */}
+        <Login />
       </main>
     </div>
   );
