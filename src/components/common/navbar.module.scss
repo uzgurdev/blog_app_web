@@ -32,9 +32,11 @@
   display: flex;
   list-style: none;
 
-  li {
+  a {
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
+    text-decoration: none;
 
     &:hover {
       cursor: pointer;
@@ -80,6 +82,7 @@
   padding: 8px 20px;
   border-radius: 6px;
   background: #4b6bfb;
+  text-decoration: none;
   transition: all 0.3s ease;
 
   &:hover {

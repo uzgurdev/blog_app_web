@@ -1,38 +1,38 @@
 .userInfo {
-	display: flex;
-	width: 1216px;
-	padding: 48px;
-	margin-top: 40px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
-	border-radius: 12px;
-	background: #242535;
+  display: flex;
+  width: 100%;
+  padding: 48px;
+  margin-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #242535;
 }
 .user {
-	margin: -60px 0 0 0;
+  margin: -60px 0 0 0;
 }
 .h3 {
-	color: #fff;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 28px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
 }
 .h4 {
-	color: #bababf;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 20px;
+  color: #bababf;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
 .p {
-	width: 668px;
-	height: 104px;
-	align-self: stretch;
-	color: #bababf;
-	text-align: center;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 26px;
+  width: 668px;
+  height: 104px;
+  align-self: stretch;
+  color: #bababf;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
 }

@@ -1,17 +1,20 @@
+import { Link } from "react-router-dom";
+
 import { SearchIcon } from "../assets";
+
 import navbar from "./navbar.module.scss";
 
 export default function Navbar() {
   return (
     <div className={navbar.navbar}>
-      <div className={navbar.logo}>Uzgur</div>
+      <div className={navbar.logo}>Blog App</div>
 
       <div className={navbar.options}>
         <ul className={navbar.menu}>
-          <li>Home</li>
-          <li>Blog</li>
-          <li>About Author</li>
-          <li>Contact</li>
+          <Link to="/">Home</Link>
+          <Link to="/articles">Blog</Link>
+          <Link to="/about">About Author</Link>
+          <Link to="/contact">Contact</Link>
         </ul>
 
         <div className={navbar.search_bar}>
@@ -27,9 +30,13 @@ export default function Navbar() {
         </div>
 
         <div className={navbar.user}>
-          <button className={navbar.button}>Login</button>
+          <Link to="/login" className={navbar.button}>
+            Login
+          </Link>
 
-          <button className={navbar.button}>Register</button>
+          <Link to="/register" className={navbar.button}>
+            Register
+          </Link>
         </div>
       </div>
     </div>

@@ -4,12 +4,14 @@ import crump from "./crump.module.scss";
 
 export default function Breadcrumbs() {
   //   const { pathname } = useLocation();
+  //   const [currentCrumb, setCurrentCrumb] = useState('');
   //   let currentLink: string[] = [];
   //   const crumbs = pathname
   //     .split("/")
   //     .filter((crumb) => crumb !== "")
   //     .map((crumb) => {
   //       currentLink.push(`/${crumb}`);
+  //       setCurrentCrumb(crumb);
 
   //       return (
   //         <div className={crump.crumb} key={crumb}>
