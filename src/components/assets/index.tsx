@@ -1,3 +1,4 @@
-import SearchIcon from "./search_icon";
+import SearchIcon from './search_icon';
+import UserIcon from './user_icon';
 
-export { SearchIcon };
+export { SearchIcon, UserIcon };
