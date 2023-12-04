@@ -1,0 +1,34 @@
+.breadcrumbs {
+  gap: 10px;
+  display: grid;
+  max-width: 1200px;
+  margin: 20px auto;
+  align-content: center;
+  justify-items: center;
+}
+.breadcrumbs .crumb_title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.breadcrumbs .crumb a {
+  text-decoration: none;
+}
+.breadcrumbs > .crumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+.breadcrumbs .crumb:after {
+  content: "|";
+  color: #e8e8ea;
+  margin-left: 10px;
+}
+.breadcrumbs .crumb:last-child:after {
+  display: none;
+}
+.breadcrumbs .crumb:last-child a {
+  color: #696a75;
+}
+.breadcrumbs .crumb a {
+  color: #3b3c4a;
+}

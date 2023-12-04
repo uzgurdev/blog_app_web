@@ -4,3 +4,10 @@
   max-width: 1200px;
   background: transparent;
 }
+
+.header_container {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

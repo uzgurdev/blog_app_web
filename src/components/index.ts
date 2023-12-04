@@ -1,4 +1,4 @@
 import ArticleCard from './articles/articleCard';
-import Header from './common/header';
+import Banner from './common/banner';
 import UserInfo from './user/profile';
-export { Header, ArticleCard, UserInfo };
+export { Banner, ArticleCard, UserInfo };

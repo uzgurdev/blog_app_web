@@ -1,17 +1,23 @@
-import home from './home.module.scss';
+import home from "./home.module.scss";
 
-import { Outlet } from 'react-router-dom';
-import { Header, UserInfo } from '../components';
+import { Outlet } from "react-router-dom";
+import { Banner, UserInfo } from "../components";
+import Navbar from "../components/common/navbar";
+import Breadcrumbs from "../components/common/breadCrumb";
 
 export default function Home() {
-	return (
-		<div className={home.container}>
-			<Header />
-			<main>
-				{/* Home */}
-				<Outlet />
-				<UserInfo />
-			</main>
-		</div>
-	);
+  return (
+    <div className={home.container}>
+      <div className={home.header_container}>
+        <Navbar />
+        <Breadcrumbs />
+      </div>
+      <main>
+        <Banner />
+        {/* Home */}
+        <Outlet />
+        <UserInfo />
+      </main>
+    </div>
+  );
 }

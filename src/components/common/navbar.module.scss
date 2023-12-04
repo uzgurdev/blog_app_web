@@ -7,7 +7,7 @@
   margin: 20px 0 20px;
   align-items: center;
   box-sizing: border-box;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo {
@@ -24,7 +24,7 @@
   gap: 21px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .menu {
@@ -65,7 +65,13 @@
   transform: translateY(-50%);
 }
 
-.login_button {
+.user {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
   border: none;
   color: #fff;
   font-size: 16px;
@@ -74,10 +80,15 @@
   padding: 8px 20px;
   border-radius: 6px;
   background: #4b6bfb;
+  transition: all 0.3s ease;
 
   &:hover {
     color: #4b6bfb;
-    border: 1px solid #4b6bfb;
     background: transparent;
+    outline: 1px solid #4b6bfb;
+  }
+
+  &:active {
+    transform: scale(1.05);
   }
 }

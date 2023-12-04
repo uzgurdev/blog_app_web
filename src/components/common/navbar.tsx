@@ -15,14 +15,22 @@ export default function Navbar() {
         </ul>
 
         <div className={navbar.search_bar}>
-          <input type="text" placeholder="Search" className={navbar.search_input} />
+          <input
+            type="text"
+            placeholder="Search"
+            className={navbar.search_input}
+          />
 
           <div className={navbar.search_icon}>
             <SearchIcon />
           </div>
         </div>
 
-        <button className={navbar.login_button}>Login</button>
+        <div className={navbar.user}>
+          <button className={navbar.button}>Login</button>
+
+          <button className={navbar.button}>Register</button>
+        </div>
       </div>
     </div>
   );
