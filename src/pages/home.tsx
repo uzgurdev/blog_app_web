@@ -1,7 +1,7 @@
 import home from './home.module.scss';
 
 import { Outlet } from 'react-router-dom';
-import { Header, UserInfo } from '../components';
+import { Header, UserInfo, ArticleCard, ArticlePost } from '../components';
 
 export default function Home() {
 	return (
@@ -11,6 +11,8 @@ export default function Home() {
 				{/* Home */}
 				<Outlet />
 				<UserInfo />
+				 <ArticleCard />
+				{/* <ArticlePost /> */}
 			</main>
 		</div>
 	);
