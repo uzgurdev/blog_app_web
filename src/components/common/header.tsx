@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div>
       <Navbar />
-      Header
+      {/* Header */}
     </div>
   );
 }
