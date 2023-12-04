@@ -1,3 +1,4 @@
+import { SearchIcon } from "../assets";
 import navbar from "./navbar.module.scss";
 
 export default function Navbar() {
@@ -13,9 +14,15 @@ export default function Navbar() {
           <li>Contact</li>
         </ul>
 
-        <div className="search">
-          <input type="text" placeholder="Search" />
+        <div className={navbar.search_bar}>
+          <input type="text" placeholder="Search" className={navbar.search_input} />
+
+          <div className={navbar.search_icon}>
+            <SearchIcon />
+          </div>
         </div>
+
+        <button className={navbar.login_button}>Login</button>
       </div>
     </div>
   );

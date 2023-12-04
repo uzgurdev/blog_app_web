@@ -4,6 +4,7 @@
   height: 50px;
   display: flex;
   padding: 0 20px;
+  margin: 20px 0 20px;
   align-items: center;
   box-sizing: border-box;
   justify-content: space-around;
@@ -12,16 +13,71 @@
 .logo {
   font-size: 24px;
   font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .options {
+  width: 70%;
   gap: 21px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .menu {
   gap: 40px;
   display: flex;
   list-style: none;
+
+  li {
+    font-size: 16px;
+    font-weight: 400;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.search_bar {
+  position: relative;
+}
+
+.search_input {
+  color: #fff;
+  width: 166px;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  background: #242535;
+  padding: 8px 8px 8px 16px;
+}
+
+.search_icon {
+  top: 55%;
+  right: 8px;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.login_button {
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 8px 20px;
+  border-radius: 6px;
+  background: #4b6bfb;
+
+  &:hover {
+    color: #4b6bfb;
+    border: 1px solid #4b6bfb;
+    background: transparent;
+  }
 }
